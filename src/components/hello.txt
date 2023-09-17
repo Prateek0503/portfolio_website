@@ -1,0 +1,16 @@
+ const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nhv4r88', 'template_3vssojg', form.current, 'ptXfdOC6ZnMdxxcSg3P4l')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    }
+
+
+     useRef={form} onSubmit={sendEmail}
+     name='your_name'
+     name='your_email' 
