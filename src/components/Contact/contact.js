@@ -6,8 +6,9 @@ import Facebook from '../../assets/facebook.png';
 import Adobe from '../../assets/adobe.png';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import TwitterIcon from '../../assets/twitter.png';
-import YoutubeIcon from '../../assets/youtube.png';
+
 import InstagramIcon from '../../assets/instagram.png';
+import LinkedIncon from '../../assets/linkedin-icon.png';
 import emailjs from '@emailjs/browser';
 
 
@@ -31,17 +32,17 @@ const Contact = () =>{
 </div>
     <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDisc">Please fill ou the form</span>
+        {/* <span className="contactDisc">Please fill ou the form</span>
         <form className="contactForm">
             <input type="text" className="name" placeholder="Your Name"  />
             <input type="email" className="email" placeholder="Your Email" />
             <textarea  name="message" className="msg" rows="5" placeholder="Your Email" > </textarea>
             <button className="submitBtn" type='submit' value='Send'> Submit</button>
-        </form>
+        </form> */}
         <div className="links">
-            <img src={FacebookIcon} className="link"  alt="" />
+            <a href='https://www.facebook.com/profile.php?id=100072793572150' target="_blank"><img src={FacebookIcon} className="link"  alt=""  /></a>
             <img src={TwitterIcon} className="link" alt="" />
-            <img src={YoutubeIcon} className="link"  alt=""/>
+            <a href='https://www.linkedin.com/in/prateek-tiwari-ba69481b4' target="_blank"> <img src={LinkedIncon} className="link"  alt=""/></a>
             <img src={InstagramIcon} className="link"  alt=""/>
         </div>
     </div>

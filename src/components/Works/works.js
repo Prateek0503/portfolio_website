@@ -6,6 +6,8 @@ import Portfolio3 from '../../assets/portfolio-3.png';
 import Portfolio4 from '../../assets/portfolio-4.png';
 import Portfolio5 from '../../assets/portfolio-5.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
+import Portfolio7 from '../../assets/portfolio-7.png';
+import Portfolio8 from '../../assets/portfolio-8.png';
 
 
 const Works = () => {
@@ -21,6 +23,8 @@ const Works = () => {
           <img src={Portfolio4} alt="" className="worksImg" />
           <img src={Portfolio5} alt="" className="worksImg" />
           <img src={Portfolio6} alt="" className="worksImg" />
+          <img src={Portfolio7} alt="" className="worksImg" />
+          <img src={Portfolio8} alt="" className="worksImg" />
         </div>
 
         <button className="workBtn">See More</button>
